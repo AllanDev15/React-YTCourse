@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Componente from './components/Componente';
+import Propiedades from './components/propiedades';
 import './App.css';
 
 const estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -30,6 +31,17 @@ function App() {
         </div>
         <section>
           <Componente msg="Hola soy un componente funcional expresado" />
+          <hr />
+          <Propiedades
+            cadena="String"
+            numero={19}
+            bool={true}
+            arreglo={[1, 2, 3]}
+            objeto={{ nombre: 'Allan', correo: 'Allan.FL.15@live.com' }}
+            function={(num) => num * num}
+            elementoReact={<li>Esto es un elemento React</li>}
+            componenteReact={<Componente msg="Soy un componente pasado como prop" />}
+          />
         </section>
       </header>
     </div>
