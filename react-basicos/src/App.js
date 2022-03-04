@@ -4,6 +4,7 @@ import Componente from './components/Componente';
 import Propiedades from './components/propiedades';
 import Estado from './components/estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 import './App.css';
 
 const estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -48,6 +49,8 @@ function App() {
           <Estado />
           <hr />
           <RenderizadoCondicional />
+          <hr />
+          <RenderizadoElementos />
         </section>
       </header>
     </div>
