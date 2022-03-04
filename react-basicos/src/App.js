@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Componente from './components/Componente';
 import Propiedades from './components/propiedades';
 import Estado from './components/estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
 import './App.css';
 
 const estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -45,6 +46,8 @@ function App() {
           />
           <hr />
           <Estado />
+          <hr />
+          <RenderizadoCondicional />
         </section>
       </header>
     </div>
