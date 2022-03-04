@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Componente from './components/Componente';
 import Propiedades from './components/propiedades';
+import Estado from './components/estado';
 import './App.css';
 
 const estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -42,6 +43,8 @@ function App() {
             elementoReact={<li>Esto es un elemento React</li>}
             componenteReact={<Componente msg="Soy un componente pasado como prop" />}
           />
+          <hr />
+          <Estado />
         </section>
       </header>
     </div>
