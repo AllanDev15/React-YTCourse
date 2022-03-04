@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Componente from './components/Componente';
 import './App.css';
 
 const estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -27,6 +28,9 @@ function App() {
             ))}
           </ul>
         </div>
+        <section>
+          <Componente msg="Hola soy un componente funcional expresado" />
+        </section>
       </header>
     </div>
   );
